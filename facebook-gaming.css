@@ -1,0 +1,29 @@
+/* Make the sidebar a little wider */
+div[role="complementary"] {
+    width: 460px;
+}
+div[role="complementary"] > div > div:first-child {
+    width: 100%;
+}
+
+/* Make comments slightly more compact */
+div[role="complementary"] div[role="article"] {
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+/* Remove the 'bubble' effect around comments */
+div[role="complementary"] div[role="article"] * {
+    border-radius: 0 !important;
+    background: none !important;
+}
+
+/* Fade out the actions on each comment */
+div[role="complementary"] div[role="article"] ul {
+    opacity: 0.5;
+}
+
+/* Remove not-so-useful identity stuff on each comment */
+div[aria-label="Identity Badges"] {
+    display: none;
+}
