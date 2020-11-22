@@ -16,3 +16,8 @@
 ## Disclaimer
 
 - If something breaks, just disable the style within Stylus
+
+## Testimonials
+
+"Much like the stream I'll be using this overlay for, it's hot garbage <3"
+– Sn33kyPanda
